@@ -1,4 +1,5 @@
 import './assets/main.css'
+import '@mdi/font/css/materialdesignicons.css'
 import { plugin, defaultConfig} from '@formkit/vue'
 import config from '../form-kit'
 import 'vuetify/styles'

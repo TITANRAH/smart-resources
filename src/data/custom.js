@@ -6,8 +6,9 @@ export const custom = [
         fechaCreacionCustom: new Date,
         fechaFinalizacionCustom: '',
         responsableCustom: '',
-        estado: 'pendiente',
-            
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
     },
     {
         nombreCliente: 'sura',
@@ -16,8 +17,9 @@ export const custom = [
         fechaCreacionCustom: new Date,
         fechaFinalizacionCustom: '',
         responsableCustom: '',
-        estado: 'pendiente',
-            
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
     },
     {
         nombreCliente: 'sura',
@@ -26,8 +28,9 @@ export const custom = [
         fechaCreacionCustom: new Date,
         fechaFinalizacionCustom: '',
         responsableCustom: '',
-        estado: 'pendiente',
-            
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
     },
     {
         nombreCliente: 'sura',
@@ -36,8 +39,9 @@ export const custom = [
         fechaCreacionCustom: new Date,
         fechaFinalizacionCustom: '',
         responsableCustom: '',
-        estado: 'pendiente',
-            
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
     },
     {
         nombreCliente: 'sura',
@@ -46,8 +50,141 @@ export const custom = [
         fechaCreacionCustom: new Date,
         fechaFinalizacionCustom: '',
         responsableCustom: '',
-        estado: 'pendiente',
-            
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
     },
-  
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+    {
+        nombreCliente: 'sura',
+        ramaFeatureCliente: 'feature/CLIENTE-SURA',
+        figmaUrlCliente: 'figma.com/sura',
+        fechaCreacionCustom: new Date,
+        fechaFinalizacionCustom: '',
+        responsableCustom: '',
+        estadoCustom: 'pendiente',
+        descripcionCustom: '',
+
+    },
+
 ]

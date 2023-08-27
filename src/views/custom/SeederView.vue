@@ -3,6 +3,7 @@
   import { collection, addDoc } from 'firebase/firestore'
   import {  useFirestore  } from 'vuefire'
   import { custom } from '../../data/custom'
+  import {uid} from 'uid'
 
   const db = useFirestore();
 
@@ -12,13 +13,15 @@
     for (let i = 1; i < custom.length; i++) {
           
           addDoc(customsCollection, { 
+              id: uid(),
               nombreCliente: custom[i - 1 ].nombreCliente,
               ramaFeatureCliente: custom[i - 1 ].ramaFeatureCliente,
               figmaUrlCliente: custom[i - 1 ].figmaUrlCliente,
               fechaCreacionCustom: custom[i - 1 ].fechaCreacionCustom,
               fechaFinalizacionCustom: custom[i - 1 ].fechaFinalizacionCustom,
               responsableCustom: custom[i - 1 ].responsableCustom,
-              estado: custom[i - 1 ].estado,
+              estadoCustom: custom[i - 1 ].estadoCustom,
+              descripcionCustom: custom[i - 1 ].descripcionCustom,
           }).then(() => {
             console.log("Custom Agregada...");
           }).catch((error) => {
