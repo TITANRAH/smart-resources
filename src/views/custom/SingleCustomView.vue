@@ -66,6 +66,15 @@ navigator.clipboard.writeText(text)
                                     customStore.singleCustom.fechaCreacionCustom }}
                             </v-col>
                             <v-col cols="6">
+                                <strong>Fecha de Creación:</strong> {{
+                                    customStore.singleCustom.fechaFinalizacionCustom }}
+                            </v-col>
+                           
+                        </v-row>
+
+                        <v-row>
+
+                            <v-col cols="6">
                                 <strong>URL de Figma:</strong>
                                 <div>
                                     <template v-if="showFullFigmaUrl">
@@ -76,10 +85,8 @@ navigator.clipboard.writeText(text)
                                     </template>
                                 </div>
                             </v-col>
-                        </v-row>
-
-                        <v-row>
-                            <v-col cols="12">
+                     
+                            <v-col cols="6">
                                 <strong>Descripción:</strong>
                                 <p>
                                    {{ customStore.singleCustom.descripcionCustom == '' ? 'Sin descripción' : customStore.singleCustom.descripcionCustom }}  
