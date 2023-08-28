@@ -22,7 +22,7 @@ const router = createRouter({
           component: () => import('../views/custom/SeederView.vue')
         },
         {
-          path: 'custom-list',
+          path: '',
           name: 'custom-list',
           component: () => import('../views/custom/CustomView.vue')
         },
