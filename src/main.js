@@ -1,6 +1,8 @@
 import './assets/main.css'
 import '@mdi/font/css/materialdesignicons.css'
+import 'vue-toast-notification/dist/theme-sugar.css'
 import { plugin, defaultConfig} from '@formkit/vue'
+import { useToast } from 'vue-toast-notification'
 import config from '../form-kit'
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
@@ -26,8 +28,18 @@ app.use(VueFire, {
     firebaseApp,
     modules: [VueFireAuth()]
 })
+
+const $toast = useToast({
+    duration: 3000,
+    position:'top'
+})
+
+app.provide('toast', $toast)
 app.use(router)
 app.use(vuetify)
 app.use(plugin, defaultConfig(config))
 app.use(createPinia())
 app.mount('#app')
+
+
+

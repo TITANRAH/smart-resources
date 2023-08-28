@@ -15,7 +15,6 @@ const customs = useCustomStore()
        :key="custom.nombreCliente"
        :custom="custom"
        />
-
  </div>
 
 </template>

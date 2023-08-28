@@ -10,6 +10,8 @@ const customs = useCustomStore()
 <template>
  
  <div class="contenedor-custom">
+
+
     <Custom
        v-for="custom in customs.customRealizadas"
        :key="custom.nombreCliente"

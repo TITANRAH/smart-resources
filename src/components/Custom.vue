@@ -1,3 +1,16 @@
+  <script setup>
+  import { useCustomStore } from '../stores/custom';
+  
+  const customStore = useCustomStore();
+  
+  defineProps({
+    custom: {
+      type: Object
+    }
+  });
+  
+
+  </script>
 <template>
     <v-card class="card-with-shadow" elevation="8">
       <v-row align="center">
@@ -8,9 +21,8 @@
         </v-col>
        
             <v-row>
-                <v-icon class="eye-icon">mdi-eye</v-icon>
+                <v-icon class="eye-icon" @click="customStore.goSingleCustom(custom.id)">mdi-eye</v-icon>
                 <v-icon class="delete-icon ml-2" @click="customStore.deleteCustom(custom.id);">mdi-delete</v-icon>
-
             </v-row>
      
       </v-row>
@@ -47,17 +59,4 @@
   }
   </style>
   
-  <script setup>
-  import { useCustomStore } from '../stores/custom';
-  
-  const customStore = useCustomStore();
-  
-  defineProps({
-    custom: {
-      type: Object
-    }
-  });
-  
-
-  </script>
   

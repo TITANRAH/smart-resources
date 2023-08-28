@@ -35,8 +35,21 @@ const router = createRouter({
           path: 'custom-realizadas',
           name: 'custom-realizadas',
           component: () => import('../views/custom/CustomRealizadasView.vue')
-        }
+        },
+      
       ]
+
+
+    },
+    {
+      path: '/customizacion/:id',
+      name: 'customizacion',
+      component: () => import('../views/custom/SingleCustomView.vue')
+    },
+    {
+      path: '/editar-custom/:id',
+      name: 'edit-custom',
+      component: () => import('../views/custom/EditCustomView.vue')
     },
     {
       path: '/figma',
