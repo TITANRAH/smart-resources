@@ -3,7 +3,7 @@
 </script>
 <template>
     <div>
-        desde login
+        <v-btn :to="{name: 'custom'}">Login</v-btn>
     </div>
 </template>
 
